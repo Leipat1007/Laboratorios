@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Declaración de variables
+        let nombre = "Carlos"
+        let edad = 30
+        let esEstudiante = false
+        //Mostrar valores en la consola
+        console.log("Nombre: ", nombre)
+        console.log("Edad: ", edad)
+        console.log("Es estudiante: ", esEstudiante)
+
+        //Declaración de variables numericas
+        let a = 4
+        let b = 7
+        //Uso de las varibles en operaciones matematicas
+        let suma = a + b
+        let resta = a - b
+        let multiplicacio = a * b
+        let division = a / b
+        //Comparación de las variables
+        switch (a, b) {
+            case a === b:
+                console.log(`El numero ${a} es igual al numero ${b}`)
+            break;
+            case a != b:
+                console.log(`El numero ${a} es diferente al numero ${b}`)
+            break
+            case a > b:
+                console.log(`El numero ${a} es mayor al numero ${b}`)
+            break
+            case a < b:
+                console.log(`El numero ${a} es menor al numero ${b}`)
+            break
+            case a >= b:
+                console.log(`El numero ${a} es mayor o igual al numero ${b}`)
+            break
+            case a <= b:
+                console.log(`El numero ${a} es menor o igual al numero ${b}`)
+            break
+        }
+        //Declaracion de variables booleanas
+        let esMayorDeEdad = false
+        let tieneLicencia = true
+        //Uso de operadores logicos
+        if (esMayorDeEdad === true && tieneLicencia === true){
+            console.log("La persona puede conducir")
+        }else {
+            console.log("La persona no cumple con los requisitos para conducir")
+        }
+        //Creacion de un mensaje de bienvenida
+        let name = prompt("Ingrese su nombre")
+        console.log(`${name}, le damos la bienvenida a nuestra App web`)
+        //Creación del programa donde solicitamos datos del usuario
+        let userName = prompt("Ingrese su nombre")
+        let userAge = prompt("Ingrese su edad")
+        let userStudy = prompt("Es estudiante (Si/No)").toUpperCase()
+        if (userAge >= 18 && userStudy === "SI"){
+            console.log(`Bienvenido ${userName}, debido a que es estudiante y mayor de edad(${userAge} años) es valido para realizar el descuento`)
+        }
+        if (userAge >= 18 && userStudy === "NO") {
+            console.log(`Bienvenido ${userName}, debido a que no es estudiante no es valido para realizar el descuento`)
+        }
+        if (userAge < 18 && userStudy === "SI"){
+            console.log(`Bienvenido ${userName}, debido a que es estudiante y menor de edad(${userAge} años) no es valido para realizar el descuento`)
+        }
+    </script>
+</body>
+</html>
