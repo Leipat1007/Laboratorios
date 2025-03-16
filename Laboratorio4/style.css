@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    display: flex;
+    width: 70%;
+    border: .5px solid #000;
+    border-radius: 1rem;
+    height: auto;
+    justify-content: space-between;
+}
+.content .hobbies {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+.content .pendientes {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+.table {
+    width: 100%;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+.table .tabla-pendientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.table .tabla-pendientes thead th  {
+    width: 100%;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.tabla-pendientes tbody th {
+    border: 1px solid #000;
+    font-weight: normal;
+    padding: .5rem;
+}
+.tabla-pendientes tbody tr:first-child{
+    font-weight: 700;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
