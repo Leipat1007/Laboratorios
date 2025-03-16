@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: auto;
+}
+main{
+    padding: 12rem;
+    max-width: 800px;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #323232;
+    border-radius: 1rem;
+}
+form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #575656;
+    border-radius: 1rem;
+}
+.boton {
+    background-color: #1b84ad;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.boton:hover {
+    transition: 3s all ease;
+    background-color: #11ac25;
+    color: #000;
+    font-weight: bolder;
+}
