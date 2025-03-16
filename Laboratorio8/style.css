@@ -1,0 +1,15 @@
+    body {
+        background-color: #323232;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif; 
+        color: gold
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        color: #fff;
+    }
+    img {
+        width: 40%;
+        height: auto;
+    }
